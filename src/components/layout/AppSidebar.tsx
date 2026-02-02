@@ -18,7 +18,10 @@ export function AppSidebar() {
 
     return (
         <aside className="fixed inset-y-0 left-0 z-50 w-64 border-r bg-card hidden md:flex md:flex-col">
-            <div className="flex h-16 items-center border-b px-6">
+            <div className="flex h-16 items-center border-b px-6 gap-3">
+                <div className="relative h-8 w-8">
+                    <img src="/logo.png" alt="Logo" className="object-contain w-full h-full" />
+                </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">ContentPlanner</span>
             </div>
             <nav className="flex-1 space-y-1 p-4">
